@@ -1,0 +1,27 @@
+$fondo: #f2e19e;
+$widthConteiner: 1000px;
+$heigthConteiner: 300px;
+$widthConteinerImg: 350px;
+$heigthConteinerImg: 300px;
+$font3: 3rem;
+$gap3Rem: 3rem;
+$widthPercentage100:100%;
+$width800px:800px;
+$heigth500px:500px;
+$heigth200px:200px;
+
+
+:export {
+    fondo:$fondo;
+    widthConteiner: $widthConteiner;
+    heightConteiner: $widthConteiner;
+    widthConteinerImg: $widthConteinerImg;
+    heightConteinerImg: $heigthConteinerImg;
+    font3: $font3; 
+    gap3Rem: $gap3Rem;
+    widthPercentage100: $widthPercentage100;
+    width800px: $width800px;
+    heigth500px: $heigth500px;
+    heigth200px: $heigth200px;
+    
+}

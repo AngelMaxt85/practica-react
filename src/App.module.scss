@@ -1,0 +1,12 @@
+@import '../src/assets/sass/variables.scss';
+.h1__titlemain{
+  text-align: center;
+  font-size: $font3;
+}
+.general__cards{
+  gap: $gap3Rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: $widthPercentage100;
+}

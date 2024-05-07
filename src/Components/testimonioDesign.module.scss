@@ -1,0 +1,37 @@
+@import '../../src/assets/sass/variables.scss';
+
+.Cards {
+    background: $fondo;
+    width: $widthConteiner;
+    height: $heigthConteiner;
+    display: flex;
+    align-self: center;
+    .imagen{
+      width: $widthConteinerImg;
+      height: $heigthConteinerImg;
+    }
+    .conetendor__testimonio{
+      width: $width800px;
+      height: $heigth500px;
+
+    }
+    .nombre__testimonio{
+      text-align: center;
+      font-weight: bold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .cargo__testimonio{
+      text-align: center;
+      font-weight: bold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+    .texto__testimonio{
+      text-align: center;
+      font-style: italic;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      display: flex;
+      align-items: center;
+      height: $heigth200px;
+    }
+}
