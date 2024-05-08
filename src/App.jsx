@@ -38,8 +38,8 @@ function App() {
 
   return (
     <>
-    <h1 className={styleApp.h1__titlemain}>Estos son los testimonios de algunos personajes importantes en Mexico</h1>
     <div className = {styleApp.general__cards}> 
+    <h1 className={styleApp.h1__titlemain}>Testimonios de México</h1>
     {arreglo.map(el => {
       return ( <Cards id={el.id} nombre={el.nombre} pais={el.pais} imagen={el.imagen} cargo={el.cargo} 
         empresa={el.empresa} testimonio={el.testimonio} /> )

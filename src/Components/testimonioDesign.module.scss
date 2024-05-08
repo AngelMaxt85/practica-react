@@ -6,32 +6,40 @@
     height: $heigthConteiner;
     display: flex;
     align-self: center;
+    border-radius:5px ;
+    box-shadow: 0px 0px 15px rgba(79, 78, 78, 0.922);
     .imagen{
       width: $widthConteinerImg;
       height: $heigthConteinerImg;
     }
     .conetendor__testimonio{
       width: $width800px;
-      height: $heigth500px;
-
+      padding: 2rem;
+    
+      .nombre__testimonio{
+        .bold{
+          font-weight: bold;
+        }
+        text-align: center;
+        margin: 1rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .cargo__testimonio{
+        .bold{
+          font-weight: bold;
+        }
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .texto__testimonio{
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+        text-align: center;
+        font-style: italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        height: $heigth200px;
+      }
     }
-    .nombre__testimonio{
-      text-align: center;
-      font-weight: bold;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-    .cargo__testimonio{
-      text-align: center;
-      font-weight: bold;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-
-    }
-    .texto__testimonio{
-      text-align: center;
-      font-style: italic;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      display: flex;
-      align-items: center;
-      height: $heigth200px;
-    }
+    
 }

@@ -1,12 +1,18 @@
 @import '../src/assets/sass/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+  margin: 0;
+}
+
 .h1__titlemain{
   text-align: center;
-  font-size: $font3;
+  font-family: "Teachers", sans-serif;
 }
 .general__cards{
   gap: $gap3Rem;
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: $widthPercentage100;
+  padding: 1rem;
+  background-color: #ADD8E6;
 }
